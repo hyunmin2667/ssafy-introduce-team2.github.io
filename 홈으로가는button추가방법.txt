@@ -1,0 +1,10 @@
+<head>에 css파일 링크 추가
+  <link rel="stylesheet" href="../css/button.css" />
+
+<body>에 아래 버튼 추가
+  <div class="left-button">
+    <button class="button-class" OnClick="location.href ='..'">HOME</button>
+  </div>
+  
+div 클래스명을 left-button로 하면 왼쪽 하단,
+right-button로 하면 오른쪽 하단으로 갑니다.
