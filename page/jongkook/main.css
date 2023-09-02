@@ -1,0 +1,15 @@
+.who{ 
+    
+    justify-content: center;    
+    margin-left: 8%;
+    margin-right: 8%;
+    
+
+}
+.who:hover{
+    border: 5px solid gray;
+}
+
+#quiz{
+    text-align: center;
+}
