@@ -8131,6 +8131,12 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+/* 색상 추가 */
+.bg-seongwan {
+  --bs-bg-opacity: 1;
+  background-color: RGBA(127 , 168, 195, var(--bs-bg-opacity)) !important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
