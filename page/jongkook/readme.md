@@ -18,5 +18,6 @@
 <br>
 
 <h3> 간단한 자기소개 페이지 (수정중) </h3>
+
 ![image](https://github.com/hyunmin2667/ssafy10-introduce-team2/assets/94429120/13585da1-2d04-42d3-9d2d-f28b84f41443)
 
