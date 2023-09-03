@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="../css/button.css" />
 
 <body>에 아래 버튼 추가
-  <div class="left-button">
+  <div class="right-button">
     <button class="button-class" OnClick="location.href ='..'">HOME</button>
   </div>
   

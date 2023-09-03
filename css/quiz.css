@@ -55,6 +55,13 @@ img {
   margin: 30px;
 }
 
+.back-center p {
+  text-align: center;
+  top: 50px;
+  font-size: 30px;
+  margin: 30px;
+}
+
 .front {
   display: flex;
   justify-content: center;
