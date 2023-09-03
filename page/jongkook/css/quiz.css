@@ -14,9 +14,8 @@
   }
   
   .flexcolumn {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* width: 30%; */
+    float: left;
+    margin:0 100px 0 0%;
   }
   
   .maincontainer {
@@ -153,6 +152,5 @@
       background-position: 0% 50%;
     }
   }
-  
   
   
