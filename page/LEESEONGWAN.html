@@ -10,11 +10,24 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="../css/styles.css" rel="stylesheet" />
-        <link rel="stylesheet" href="./css/button.css" />
+        <style> .size-64{
+            font-size: 80px;
+        }
+        .size-48{
+            font-size: 48px;
+        }            
+        .size-32{
+            font-size: 30px;
+        }
+        .day{
+            font-family: 'Gamja Flower', cursive;
+        }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation,bg-부분 수정하면 색상 변경 가능(css에서 색상 검색하면 추가하는 부분 나옴)-->
@@ -28,10 +41,10 @@
                 <!-- 네비게이션바 목록 -->
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Hobby</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">favorite</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">TMI</a></li>
-    
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#Hobby">Hobby</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#FAVORITE">FAVORITE</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#TMI">TMI</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="../index.html">Home</a></li>
                 </ul>
             </div>
         </nav>
@@ -40,26 +53,27 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h2>
+                    <h2 class="day size-64">
                         이성완
                     </h2>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-5 day size-48 ">
                         BIRTH : 96-12-11
                         <br>age : (법률상) 26살
                         <br>hometown : 경상남도 양산
+                        <br>address : 대방 디엠시티 B동
                         <br>MBTI : E(???)NFJ
                         
                     </div>
-                    <br><br><br><br><br><br><br><br><br><img src="../assets/img/pengh.jpeg" alt="">
+                    <img src="../assets/img/pengh.jpeg" alt="">
                     </section>
             <hr class="m-0" />
             <!-- HOBBY-->
-            <section class="resume-section" id="experience">
+            <section class="resume-section" id="Hobby">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">Hobby</h2>
+                    <h2 class="mb-5 day">Hobby</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">게임</h3>
+                            <h3 class="mb-0 day size-48">게임</h3>
                             <img src="../assets/img/hobby1.png" alt="">
                         </div>
                         
@@ -67,7 +81,7 @@
                  
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">운동</h3>
+                            <h3 class="mb-0 day size-48">운동</h3>
                             <img src="../assets/img/hobby2.png" alt="">
                            
                         </div>
@@ -77,47 +91,49 @@
             </section>
             <hr class="m-0" />
             <!-- FAVORITE-->
-            <section class="resume-section" id="education">
+            <section class="resume-section" id="FAVORITE">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">FAVORITE</h2>
+                    <h2 class="mb-5 day">FAVORITE</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">노래</h3>
-                            <div class="subheading mb-3">Charlie Puth- Dangerously</div>
+                            <h3 class="mb-0 day size-48">노래</h3>
+                            <div class="subheading mb-3 day size-48">Charlie Puth- Dangerously</div>
                             </div>
                             <div class="flex-grow-1">
-                                <h3 class="mb-0">장소</h3>
-                                <div class="subheading mb-3">산 정상</div>
+                                <h3 class="mb-0 day size-48">장소</h3>
+                                <div class="subheading mb-3 day size-48">산 정상</div>
                                 
                             </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">음식</h3>
-                            <div class="subheading mb-3">돈까스&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
+                            <h3 class="mb-0 day size-48">음식</h3>
+                            <div class="subheading mb-3 day size-48">돈까스&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</div>
                             
                         </div>
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">애니메이션</h3>
-                            <div class="subheading mb-3">강철의 연금술사</div>
+                            <h3 class="mb-0 day size-48">애니메이션</h3>
+                            <div class="subheading mb-3 day size-48">강철의 연금술사</div>
                             
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">연예인</h3>
-                            <div class="subheading mb-3">박정호</div>
-                            
-                        </div>
-                    </div>
-                
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">동물</h3>
-                            <div class="subheading mb-3">고양이</div>
+                           <div class="flex-grow-1">
+                            <h3 class="mb-0 day size-48">동물</h3>
+                            <div class="subheading mb-3 day size-48">고양이</div>
                             <img src="../assets/img/cat.jpg" alt="">
                     
                         </div>
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0 day size-48">연예인</h3>
+                            <div class="subheading mb-3 day size-48">박정호</div>
+                            
+                        </div>
+                     
+                    </div>
+                
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                    
                     </div>
                     
                     
@@ -125,27 +141,27 @@
             </section>
             <hr class="m-0" />
             <!-- TMI-->
-            <section class="resume-section" id="skills">
+            <section class="resume-section" id="TMI">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">TMI</h2>
+                    <h2 class="mb-5 day ">TMI</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">최근 주요 관심사</h3>
-                            <div class="subheading mb-3">B형 취득, 사람</div>
+                            <h3 class="mb-0 day size-48">최근 주요 관심사</h3>
+                            <div class="subheading mb-3 day size-48">B형 취득, 사람</div>
                         
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">나만의 스트레스 해소 방법</h3>
-                            <div class="subheading mb-3">잠, 걷기</div>
+                            <h3 class="mb-0 day size-48">나만의 스트레스 해소 방법</h3>
+                            <div class="subheading mb-3 day size-48">잠, 걷기</div>
                             
                         </div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">개발자 외에 해보고 싶은 직업</h3>
-                            <div class="subheading mb-3">증권사</div>
+                            <h3 class="mb-0 day size-48">개발자 외에 해보고 싶은 직업</h3>
+                            <div class="subheading mb-3 day size-48">증권사</div>
                             
                         </div>
                     </div>
@@ -166,8 +182,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="../js/scripts.js"></script>
-        <div class="left-button">
-            <button class="button-class" OnClick="location.href ='..'">HOME</button>
-          </div>
+       
     </body>
 </html>
