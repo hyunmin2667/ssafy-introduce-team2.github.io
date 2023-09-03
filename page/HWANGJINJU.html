@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 전체 페이지 스타일링 */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5e6;
+            display: flex;
+            justify-content: center; /* 콘텐츠를 수평 중앙에 정렬 */
+            align-items: center; /* 콘텐츠를 수직 중앙에 정렬 */
+            min-height: 100vh; /* 화면 전체 높이를 채우기 위해 */
+        }
+
+        .container {
+            max-width: 800px; /* 페이지 최대 너비를 설정하세요 */
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box; /* padding을 포함한 너비 계산 */
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 헤더 스타일링 */
+        header {
+            background-color: #3a2b0e;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        header h1 {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 섹션 스타일링 */
+        section {
+            background-color: #fff;
+            margin: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 제목 스타일링 */
+        h2 {
+            color: #333;
+        }
+
+        /* 목록 스타일링 */
+        ul {
+            list-style: none;
+            margin-bottom: 20px;
+            padding: 0;
+        }
+
+        li {
+            font-size: 18px;
+            margin-bottom: 13px;
+        }
+
+        /* 푸터 스타일링 */
+        footer {
+            background-color: #3a2b0e;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        #profile-picture {
+            width: 150px;
+            height: 150px;
+            overflow: hidden;
+            border-radius: 50%; /* 동그랗게 만듭니다. */
+            margin: 0 auto 20px; /* 가운데 정렬하고 아래 여백 추가 */
+        }
+
+        #profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* 이미지가 원 모양으로 잘리게 합니다. */
+        }
+        #home-button {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            background-color: #725330;
+            color: #fff;
+            text-align: center;
+            border-radius: 50px; /* 동그란 모양을 위해 반지름 설정 */
+            cursor: pointer;
+        }
+
+        #home-button:hover {
+            background-color: #5c4327;
+        }
+    </style>
+</head>
+
+<body >
+    <div class="class=container">
+
+        <header>
+            <h1>나의 자기소개</h1>
+        </header>
+    
+        <section id="introduction">
+            <div id="profile-picture">
+                <img src="../src/jinju_face.jpg" alt="내 사진">
+            </div>
+            <h2>반가워요!, 저는 황진주입니다.</h2>
+            <hr>
+            <p>저는 요즘 클라우드 인프라를 목표로, <br> AWS의 Solutions Architect Associate시험을 준비하고있어요. <br> 아직 아무것도 모르지만 함께 공부할 사람들을 찾고있어요!</p>
+        </section>
+    
+        
+        <section id="contact">
+            <h2>💌 개인정보 유출 file</h2>
+            <hr>
+            <ul>
+                <li><b> - 생년월일</b> : 2000.04.02</li>
+                <li><b> - 거주지</b> : 경남 양산</li>
+                <li><b> - 현거주지</b> : 최고의 거주지 신호동</li>
+                <li><b> - mail</b> : jinjoo021@naver.com</li>
+            </ul>
+        </section>
+    
+        
+        <section id="contact">
+            <h2>🎞 좌우명 </h2>
+            <hr>
+            <p><h2 style="font-style: italic; text-align: center;">"어쩌겠어... 해야지"</h2></p>
+            <p>하기 싫은 일이 있을 때마다 되뇌이는 말입니다. <br> 하기 싫으면 뭐 어쩔건데, 해야지! 라는 마인드로 살아가고 있습니다!</p>
+        </section>
+
+        <section id="contact">
+            <h2>🎠 취미</h2>
+            <hr>
+            <ul>
+                <li><b>1) 만들기</b> : <br> 손으로 만드는 건 요리빼고 다 좋아해요! 종이공예, 그림그리기, 영상편집도 좋아합니다! </li>
+                <li><b>2) 게임</b> : <br> 요즘은 스타크래프트1,2와 발로란트를 해요 티어는... 실버..!! </li>
+                <li><b>3) 노래부르기</b> : <br> 최근에 생긴 취미로 가사를 인쇄해서 불러보는 취미가 있어요!<br> 색다른 의미를 알 수 있어 즐겁습니다!</li>
+            </ul>
+        </section>
+    
+        <section id="contact">
+            <h2>🧩 뭐하는 사람이지?</h2>
+            <h4> 짧은 정보로 전달할 수 없는 저에 대한 이야기를 담은 주소들 입니다.</h4>
+            <hr>
+            <p> <b>Blog</b> : 메프도의 요약 노트 (<a href="https://mfdo.tistory.com/">https://mfdo.tistory.com</a>)</p>
+            <p> <b>GitHub</b> : oMFDOo (<a href="https://github.com/oMFDOo">https://github.com/oMFDOo</a>)</p>
+            <p> <b>Portfolio</b> : 삶의 일대기 (<a href="https://drive.google.com/file/d/1zXTWJfYQ04-VB9FH3TAy9ZGatK-l3bGG/view?usp=sharing">https://drive.google.com/file/d/1zXTWJfYQ04-VB9FH3TAy9ZGatK-l3bGG</a>)</p>
+        </section>
+        
+        <button id="home-button" OnClick="location.href ='..'"> ▶ HOME</button>
+        
+        <footer>
+            <p></p>
+        </footer>
+    </div>
+</body>
+
+</html>
