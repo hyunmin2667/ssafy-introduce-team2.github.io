@@ -8143,6 +8143,12 @@ textarea.form-control-lg {
   background-color: RGBA(74 , 191, 211, var(--bs-bg-opacity)) !important;
 }
 
+/* 색상 추가 */
+.bg-seungjun {
+  --bs-bg-opacity: 1;
+  background-color: RGBA(60 , 179, 113, var(--bs-bg-opacity)) !important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
@@ -10879,6 +10885,13 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.subheading-seungjun {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
 #sideNav {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -10915,6 +10928,11 @@ p.lead {
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
+  .img-profile-seungjun {
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
