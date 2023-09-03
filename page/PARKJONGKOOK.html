@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/introduce.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>😁진짜 자기 소개 페이지</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+    <style>
+        body{
+    font-family: 'Gamja Flower', cursive;
+    margin:0px;
+}
+
+.menu{
+    position: fixed;
+    border: 0;
+    background-color: lightseagreen;
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.me{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 70%;
+    overflow: hidden;
+    width:100%;
+    min-height: 20px;
+    object-fit: cover;
+
+}
+
+nav{
+    background: #000;
+}
+
+h3.click{
+    scroll-behavior: smooth;
+    border: 3px soild magenta;
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;    
+    font-size: 40px;
+}
+h3.click {
+    display: inline-block;
+    transition-duration: 0.3s;
+    transition-property: box-shadow;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    transform: translateZ(0);
+    box-shadow: inset 0 0 0 4px lightseagreen, 0 0 1px rgba(0, 0, 0, 0);
+    /* Hack to improve aliasing on mobile/tablet devices */
+  }
+  
+h3.click:hover {
+    box-shadow: inset 0 0 0 5px rgb(21, 72, 78), 0 0 1px rgba(0, 0, 0, 0);
+    
+}
+
+a{
+    text-decoration-line: none;
+}
+
+.index{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section{
+    padding-left:5%;
+    margin-left: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section p{
+    font-size:60px;
+}
+
+section h1{
+    font-size:100px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+
+    </style>
+</head>
+<body >
+    
+    <nav class = "menu">
+        <div class = "index">    
+            <a href="#one"><img class = "me" src="../assets/img/me.jpg" alt=""></a>            
+            <h3 style = "font-size: 30px;">쑥쓰럽네요</h3>            
+            <a href="#oneId"><h3 class = "click">저에 관하여</h3></a>            
+            <a href="#twoId"><h3 class = "click">취미</h3></a>
+            <a href="#threeId"><h3 class = "click">이모저모</h3></a>
+            <a href="../../index.html"><h3 class = "click">홈으로</h3></a>
+        
+        </div>
+    </nav>
+
+    
+        <div class = "section-divide">
+            <section id = "one">        
+                <h1 id = "oneId">박종국</h1>
+                <p>생일: 2000.02.20</p>
+                <p>전화번호: 010-4076-8569</p>
+                <p>하고싶은 말: 여러분들을 만나게 되어서 영광입니다!</p>
+            </section>
+            <br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section id = "two">
+            <h1 id = "twoId">취미</h1>
+
+            <p>독서(하고싶음)</p>
+            <img style = "width: 20%; height: 20%;" src="../assets/img/book.jpg" alt="">
+            <p>홍대병 다수 보유중</p>
+            <img style = "width: 50%; height: 80%; " src="../assets/img/hongdae.jpg" alt="">
+            <p>요즘 제철이라 살이 많이 올랐습니다.</p>
+            <img style = "width: 20%; height: 20%;" src="../assets/img/pikachu.jpg" alt="">
+
+        </section>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <section id = "three">
+            <div>
+                <h1 id = "threeId">TMI</h1>
+                <p>경상남도 남해에서 태어난 남해의 아들</p>
+                <p>심지어 중학교 1학년 때 까지 나는 사투리를 쓰는지 몰랐습니다!</p>
+                <p>맥도날드 한번도 먹어본 적 없어요 데려가 주세요</p>
+                <p>아무도 궁금하지 않겠지만 요즘 소화가 잘 안됩니다.</p>
+                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                <a href="../../index.html"><img style = "width: 40%; height: 40%;" src="../assets/img/end.png" alt=""></a>            
+            </div>  
+        </section>
+    
+</div>
+</body>
+</html>

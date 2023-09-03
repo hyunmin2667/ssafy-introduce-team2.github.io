@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale = 1" />
-  <title>짜라자라짠짠짠</title>
-  <link rel="stylesheet" href="jongkook/css/button.css" />
-  <link rel="stylesheet" href="jongkook/css/quiz.css">
-  <link rel="stylesheet" type="text/css" href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'>
+  <title>CSS Card Flip</title>
+  <link rel="stylesheet" href="../css/quiz.css" />
+  <link rel="stylesheet" href="../css/button.css" />
+  <link rel="stylesheet" type="text/css"
+    href='https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css'>
 
 </head>
 
 <body>
-  <!-- Quiz1 박종국 -->
-
-
-
+  <!-- Quiz4 이현민 -->
   <!-- 정답버튼과 뒤로가기버튼입니다. -->
   <div class="right-button">
-    <button class="button-class" OnClick="location.href ='jongkook/introduce.html'">ANSWER</button>
+    <button class="button-class" OnClick="location.href ='PARKJONGKOOK.html'">ANSWER</button>
   </div>
   <div class="left-button">
-    <button class="button-class" OnClick="location.href ='..index.html'">HOME</button>
+    <button class="button-class" OnClick="location.href ='..'">HOME</button>
   </div>
 
 
@@ -47,7 +46,9 @@
       <div class="back">
         
         <!-- 카드1 뒷면-->
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/J8F-sVVNPZg?si=u5hdkCg_J-Vq4ud7&amp;start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="400" height="400" src="https://www.youtube.com/embed/J8F-sVVNPZg?si=u5hdkCg_J-Vq4ud7&amp;start=119" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+        </p>
       </div>
       <div class="front">
 
@@ -55,7 +56,7 @@
         <div class="image">
           <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
         </div>
-        <h2>좋아하는<br> 노래</h2>
+        <h2>좋아하는 노래</h2>
       </div>
     </div>
   </div>
@@ -73,11 +74,10 @@
       <div class="back">
         
         <!-- 카드2 뒷면-->
-        
-        <img src="../img/steam.jpg" alt="">
+        <img src="../assets/img/steam.jpg" alt="사진이 왜 안나오지?">
+        </p>
       </div>
       <div class="front">
-
 
         <!-- 카드2 앞면-->
         <div class="image">
@@ -96,29 +96,27 @@
 
 
   <!-- 카드3 -->
-    <div class="flexcolumn">
-        <div class="maincontainer">
-        <div class="back">
-            
-            <!-- 카드3 뒷면-->
-            
-            <p style="font-size: 40px;">
-            그렇게 뭐다 할만한 관심사 같은건 없구요 
-            평생 놀고 먹고 자고 하고 싶습니다.
-            </p>
-        </div>
-
-        <div class="front">
+  <div class="flexcolumn">
+    <div class="maincontainer">
+      <div class="back">
+        
+        <!-- 카드3 뒷면-->
+        <h2>최근 주요 관심사</h2>
+        <p style = "font-size: 70px;  position: absolute;
+            top: 25%;
+            left: 15%;" class = "deco">홈 데코</p>
+      </div>
+      <div class="front">
 
 
-            <!-- 카드3 앞면-->
-            <div class="image">
-            <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
-            </div>
-            <h2>최근 주요 <br>관심사</h2>
+        <!-- 카드3 앞면-->
+        <div class="image">
+          <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
         </div>
-        </div>
+        <h2>최근 주요 관심사</h2>
+      </div>
     </div>
+  </div>
 
 
 
@@ -134,11 +132,11 @@
       <div class="back">
         
         <!-- 카드4 뒷면-->
-
-        <p style="font-size: 40px;">
-          어렸을 때 부터 꿈은 많았습니다. 하지만 진지한 꿈은 없었습니다.
-          과학자, 비보이, 영화배우, 목수, 매니저, 대통령 등등 다들 이렇게 허황된 꿈을 꾸지 않나요?
-        </p>
+        <h2>개발자 외 해보고 싶은 직업</h2> 
+        <p style="font-size: 30px; ">
+            어렸을 때 부터 꿈은 많았습니다. 하지만 진지한 꿈은 없었습니다.
+            과학자, 비보이, 영화배우, 목수, 매니저, 대통령 등등 다들 이렇게 허황된 꿈을 꾸지 않나요?
+          </p>
       </div>
       <div class="front">
 
@@ -147,7 +145,7 @@
         <div class="image">
           <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
         </div>
-        <h2>개발자 외에 해보고 싶은 직업</h2>
+        <h2>개발자 외 해보고 싶은 직업</h2>
       </div>
     </div>
   </div>
@@ -165,8 +163,8 @@
       <div class="back">
         
         <!-- 카드5 뒷면-->
-  
-        <img src="../img/Elq.jpg" alt="">
+        <img src="../assets/img/Elq.jpg" alt="">
+        
       </div>
       <div class="front">
 
@@ -175,7 +173,7 @@
         <div class="image">
           <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
         </div>
-        <h2>좋아하는 <br> 유튜버</h2>
+        <h2>좋아하는 유튜버</h2>
       </div>
     </div>
   </div>
@@ -192,7 +190,7 @@
       <div class="back">
         
         <!-- 카드6 뒷면-->
-        <img src="../img/pizza.jpg" alt="">
+        <img src="../assets/img/pizza.jpg" alt="">
       </div>
       <div class="front">
 
@@ -201,7 +199,7 @@
         <div class="image">
           <img src="https://img.freepik.com/free-vector/question-mark-sign-brush-stroke-trash-style-typography-vector_53876-140880.jpg?w=1060&t=st=1693665839~exp=1693666439~hmac=39c32cc3d322d345cd48f08f7da28f584e0c992de5678dd7d749f87c66ec3882" />
         </div>
-        <h2>좋아하는 <br> 음식 </h2>
+        <h2>좋아하는 음식</h2>
       </div>
     </div>
   </div>
